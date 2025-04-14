@@ -1,6 +1,7 @@
 # Observability Demo Setup
 
-This guide explains how to run the application and observe metrics, logs, and traces using Grafana and Jaeger.
+This guide explains how to run the application and observe metrics, logs, and traces using Grafana and Jaeger. And the architecture of this demo is below
+![system-diagram](https://github.com/GLVSKiriti/ObservabilityDemoApplication/blob/main/ui-images/system-diagram.png)
 
 ---
 
@@ -34,4 +35,11 @@ You can access **Grafana UI** at: http://localhost:3001  and **Jaeger UI** at ht
 
 Grafana UI has two dashboards
 1. API Metrics Dashboard – See request counts, error rates, response time histograms, etc.
+![metric-dashboard](https://github.com/GLVSKiriti/ObservabilityDemoApplication/blob/main/ui-images/metrics-dashboard.png)
+  
 2. Log Viewer Dashboard – View structured logs from the application.
+![log-dashboard](https://github.com/GLVSKiriti/ObservabilityDemoApplication/blob/main/ui-images/Log-dashboard.png)
+
+Jaeger UI to view traces
+![jaegerui](https://github.com/GLVSKiriti/ObservabilityDemoApplication/blob/main/ui-images/jaeger-UI.png)
+
